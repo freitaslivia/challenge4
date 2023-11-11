@@ -31,7 +31,7 @@ export default function Cabecalho() {
         </ul>
       </div>
       <div>
-        <Link href="/vistoria">
+        <Link href="/login">
           
           <button className={`${botaoStyles.botao} ${botaoStyles.outlined}`}>Vistoria</button>
         </Link>

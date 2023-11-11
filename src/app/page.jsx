@@ -6,6 +6,7 @@ import MeuBotao from '../styles/Botao.module.css';
 import StepByStepSection from '../components/Steps/Step';
 import SurveySection from '../components/Survey/Survey';
 import MembersSection from '../components/Members/Members';
+import Rodape from '../components/Rodape/Rodape'
 
 function Page() {
   const backgroundImageStyle = {
@@ -46,7 +47,7 @@ function Page() {
             proteção e serviços para você se aventurar sem medo.
           </p>
 
-          <Link href="/login/page">
+          <Link href="/login">
             <button
               className={`${MeuBotao.elevated} ${MeuBotao.elevatedHovered} ${MeuBotao.botao}`}
             >
@@ -64,6 +65,11 @@ function Page() {
 
       <SurveySection/>
       <MembersSection />
+      <img
+      src="/cyclist-background.png" 
+      alt="Imagem de um ciclista andando de bicicleta"
+    />
+    <Rodape />
     </main>
   );
 }
