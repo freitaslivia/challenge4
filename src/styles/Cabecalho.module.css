@@ -1,4 +1,4 @@
-/* Cabecalho.module.css */
+
 .cabecalho {
     display: flex;
     padding: 13px 34px 13px 34px;
@@ -16,7 +16,7 @@
     align-items: center;
   }
   
-  /* CSS Module: Cabecalho.module.css */
+
 .navigation {
   & > .nav-ul {
     background-color: #fff;
@@ -29,14 +29,14 @@
 
   & > .navLi {
     list-style-type: none;
-    transition: background-color 0.3s ease; /* Adicione uma transição de suavização para o hover */
+    transition: background-color 0.3s ease; 
   }
 
   & > .navLi:hover {
-    /* Estilos para o hover */
+    
     color: #0046C0;
 
-    /* Adicione qualquer outro estilo desejado durante o hover */
+    
   }
 
   @media (max-width: 768px) {

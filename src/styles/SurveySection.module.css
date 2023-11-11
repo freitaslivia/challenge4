@@ -2,7 +2,7 @@
 
 .surveySection {
     width: 100%;
-    background-image: url('/background-survey.png'); /* Ajuste o caminho conforme necessário */
+    background-image: url('/background-survey.png'); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

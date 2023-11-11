@@ -1,7 +1,7 @@
 
 import React from 'react';
 import SurveyStyle  from '../../styles/SurveySection.module.css';
-import MeuBotao from '../../styles/Botao.module.css'; // Certifique-se de ajustar o caminho conforme necessário
+import MeuBotao from '../../styles/Botao.module.css'; 
 
 const SurveySection = () => {
   return (

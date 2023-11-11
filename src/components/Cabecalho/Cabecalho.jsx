@@ -1,4 +1,4 @@
-// Cabecalho.js
+
 import Link from 'next/link';
 import Image from 'next/image';
 import styles from '../../styles/Cabecalho.module.css';
@@ -32,7 +32,7 @@ export default function Cabecalho() {
       </div>
       <div>
         <Link href="/vistoria">
-          {/* Aplicar a classe do botão correspondente */}
+          
           <button className={`${botaoStyles.botao} ${botaoStyles.outlined}`}>Vistoria</button>
         </Link>
       </div>
