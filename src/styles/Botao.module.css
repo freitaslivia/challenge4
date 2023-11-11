@@ -1,5 +1,5 @@
 
-.button {
+.botao {
     text-align: center;
     font-size: 16px;
     font-style: normal;
@@ -20,9 +20,11 @@
     border: 1px solid #0046c0;
     background: #0046c0;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    
   }
   
-  .hovered {
+  .elevated:hover  {
     background-color: #0051dd;
   }
   

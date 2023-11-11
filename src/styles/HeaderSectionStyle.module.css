@@ -19,16 +19,23 @@
     height: 85vh;
     max-height: 900px;
   }
+  .headerSection h1{
+    color: #0046c0;
+    font-size: 2.2em;
+    line-height: 1.1;
+    
+    font-weight: bold;
+  }
   
-  .headerSection .header-section-box {
+  .headerSection .headerSectionBox {
     padding: 13px 34px 13px 34px;
     display: flex;
     flex-direction: column;
     gap: 16px;
-    max-width: 65%;
+    max-width: 80%;
   }
   
-  .headerSection .header-section-background {
+  .headerSection .headerSectionBackground {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
@@ -36,14 +43,15 @@
     width: 100%;
   }
   
+  
   @media (max-width: 768px) {
     .headerSection {
       grid-template-columns: 1fr;
     }
-    .headerSection .header-section-box {
+    .headerSection .headerSectionBox {
       max-width: 85%;
     }
-    .headerSection .header-section-background {
+    .headerSection .headerSectionBackground {
       display: none;
     }
   }

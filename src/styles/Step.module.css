@@ -1,0 +1,65 @@
+
+
+.stepByStepSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 56px;
+    background: #fff;
+    text-align: center;
+    padding: 100px 34px;
+    max-width: 1000px;
+  }
+  
+  .stepByStepBox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px;
+  }
+  
+  .stepByStepBox h2 {
+    color: #0046c0;
+    font-size: 1.9em;
+    line-height: 1.1;
+    font-weight: bold;
+  }
+  
+  .stepByStepCards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    list-style-type: none;
+  
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  .card {
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content max-content;
+    align-content: flex-end;
+  }
+  
+  .cardTitle {
+    background-color: #0046c0;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1.1;
+  }
+  
+  .cardDescription {
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 0 0 16px 16px;
+  }
+  
