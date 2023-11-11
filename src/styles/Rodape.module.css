@@ -1,0 +1,21 @@
+
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .logo {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo > img {
+    width: 143px;
+  }
+  
