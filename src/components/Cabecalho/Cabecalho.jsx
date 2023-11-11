@@ -33,7 +33,7 @@ export default function Cabecalho() {
       <div>
         <Link href="/vistoria">
           {/* Aplicar a classe do botão correspondente */}
-          <button className={`${botaoStyles.button} ${botaoStyles.outlined}`}>Vistoria</button>
+          <button className={`${botaoStyles.botao} ${botaoStyles.outlined}`}>Vistoria</button>
         </Link>
       </div>
     </header>
