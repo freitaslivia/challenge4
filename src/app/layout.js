@@ -5,7 +5,7 @@ import Cabecalho from '@/components/Cabecalho/Cabecalho'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Porto Seguro ',
+  title: 'Porto Seguro - Vistoria de Bikes',
   description: '1TDSPM - Entrega Challenge 4 Sprint',
 }
 

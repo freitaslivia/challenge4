@@ -19,12 +19,15 @@
     gap: 32px;
     align-items: center;
     width: 100%;
-  
-    & > .inputField > button {
-      width: 100%;
-    }
   }
-  
+  .loginBox h1{
+    font-size: 2.2em;
+    line-height: 1.1;
+    font-weight: bold;
+  }
+  .loginBox .inputField {
+    width: 100%;
+  }
   .loginBackground {
     position: relative;
     height: 100%;
@@ -47,16 +50,16 @@
     display: flex;
     flex-direction: column;
     gap: 8px;
-  
-    & > .label {
-      font-weight: bold;
-    }
-  
-    & > .input {
-      padding: 8px;
-      border: 1px solid #0046c0;
-      border-radius: 4px;
-      width: 100%;
-    }
+    
   }
   
+
+  .inputField input {
+    padding: 14px;
+    border: 1px solid #0046c0;
+    border-radius: 4px;
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid #FFF;
+    background: #FFF;
+  }
