@@ -1,36 +1,17 @@
-
-
+import React from 'react';
 import Link from 'next/link';
 
-const steps = [
-  {
-    id: '1',
-    title: 'Dados da bicicleta',
-    description: 'Vamos pegar algumas informações da sua bicicleta',
-  },
-  {
-    id: '2',
-    title: 'Fotos da bike',
-    description: 'Vamos coletar algumas fotos da sua bicicleta',
-  },
-  {
-    id: '3',
-    title: 'Análise usuário',
-    description:
-      'Vamos coletar algumas informações suas para finalizar a vistoria',
-  },
-];
-
-const StepLinks = () => {
+const StepLinks = ({ currentStep, steps }) => {
   return (
     <div>
       <h2>Escolha uma etapa:</h2>
       <ul>
         {steps.map((step) => (
           <li key={step.id}>
-            <Link href={`/vistoria/${step.id}`}>
-              <a>{step.title}</a>
-            </Link>
+            
+            <div onClick={() => Router.push(`/vistoria/${step.id}`)} className={currentStep === step.id ? 'active' : ''}>
+              {step.title}
+            </div>
           </li>
         ))}
       </ul>
