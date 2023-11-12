@@ -1,6 +1,5 @@
 
-
-const steps = [
+const stepsLogin = [
     {
       id: '1',
       title: 'Dados da bicicleta',
@@ -8,16 +7,15 @@ const steps = [
     },
     {
       id: '2',
-      title: 'Fotos da bike',
+      title: ' Fotos da bike',
       description: 'Vamos coletar algumas fotos da sua bicicleta',
     },
     {
       id: '3',
-      title: 'Análise usuário',
-      description:
-        'Vamos coletar algumas informações suas para finalizar a vistoria',
+      title: ' Análise usuário',
+      description: 'Vamos coletar algumas informações suas para finalizar a vistoria',
     },
   ];
   
-  export default steps;
+  export default stepsLogin;
   
