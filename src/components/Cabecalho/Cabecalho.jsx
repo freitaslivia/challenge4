@@ -18,14 +18,14 @@ export default function Cabecalho() {
         </Link>
       </div>
       <div className={styles.navigation}>
-        <ul className={styles['nav-ul']}>
-          <li className={styles['nav-li']}>
+        <ul className={styles.navUl}>
+          <li className={styles.navLi}>
             <Link href="#passo-a-passo">Passo a Passo</Link>
           </li>
-          <li className={styles['nav-li']}>
+          <li className={styles.navLi}>
             <Link href="#seguro-bike">Seguro Porto Bike</Link>
           </li>
-          <li className={styles['nav-li']}>
+          <li className={styles.navLi}>
             <Link href="#equipe">Equipe</Link>
           </li>
         </ul>
