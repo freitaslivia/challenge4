@@ -1,17 +1,13 @@
 "use client";
-
 import React, { useState } from 'react';
-import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import styles from '../../styles/Login.module.css';
-import MeuBotao from '../../styles/Botao.module.css';
 
-
+import CustomButton from '../../components/CustomButton/Button';
 
 const Login = () => {
   const [inspectionCode, setInspectionCode] = useState('');
   const [password, setPassword] = useState('');
-  const [currentStep, setCurrentStep] = useState(1);
 
   const handleInspectionCodeChange = (event) => {
     setInspectionCode(event.target.value);
@@ -21,19 +17,15 @@ const Login = () => {
     setPassword(event.target.value);
   };
 
-  const handleSubmit = async (event) => {
+  const handleLogin = async (event) => {
     event.preventDefault();
 
-    console.log('Código de Vistoria:', inspectionCode);
-    console.log('Senha:', password);
-
-    setInspectionCode('');
-    setPassword('');
-
+   
     const loginSuccessful = true;
 
     if (loginSuccessful) {
-      setCurrentStep((prevStep) => prevStep + 1);
+      
+      window.location.href = '/vistoriaStep1';
     }
   };
 
@@ -69,11 +61,10 @@ const Login = () => {
           />
         </div>
 
-       
-        <Link href="/vistoria">
-          <button className={`${MeuBotao.elevated} ${MeuBotao.elevatedHovered} ${MeuBotao.botao}`} onClick={handleSubmit}>
+        <Link href="/vistoriaStep1">
+          <CustomButton onClick={handleLogin}>
             Entrar
-          </button>
+          </CustomButton>
         </Link>
       </form>
       <div className={styles.loginBackground} style={backgroundImageStyle} />

@@ -1,24 +1,24 @@
 
+
 .cabecalho {
-    display: flex;
-    padding: 13px 34px 13px 34px;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 40px;
-  }
-  
-  .logo {
-    cursor: pointer;
-  }
-  
-  .logo a {
-    display: flex;
-    align-items: center;
-  }
-  
+  display: flex;
+  padding: 13px 34px 13px 34px;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 40px;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+}
 
 .navigation {
-  & > .nav-ul {
+  & > .navUl {
     background-color: #fff;
     list-style-type: none;
     padding: 0;
@@ -27,23 +27,21 @@
     gap: 36px;
   }
 
-  & > .navLi {
+  .navLi {
     list-style-type: none;
-    transition: background-color 0.3s ease; 
+    transition: background-color 0.3s ease;
   }
 
-  & > .navLi:hover {
-    
-    color: #0046C0;
-
-    
+  .navLi:hover {
+    color: #0046c0;
+    transition: 0.3s;
   }
 
   @media (max-width: 768px) {
-    & > .nav-ul {
+    & > .navUl {
       display: none;
     }
   }
 }
 
-  
+
