@@ -42,7 +42,20 @@
     height: 100%;
     width: 100%;
   }
-  
+  .surveyChat {
+    background: rgba(210, 239, 254, 0.20);;
+    height: 100%;
+    width: 100%;
+  }
+  .surveyBox {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    background: rgba(32, 173, 252, 0.2);
+    height: 100%;
+    justify-content: center;
+  }
   
   @media (max-width: 768px) {
     .headerSection {
