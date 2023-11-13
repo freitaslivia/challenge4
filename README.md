@@ -45,7 +45,8 @@ Os processos incluem planejamento, design, desenvolvimento, teste, integração,
 ## Links
 
  - [Repositório Github](https://github.com/freitaslivia/challenge4)
- - [Trello](https://trello.com/b/ecWkLHYo/fiap-23)
- - [Bucket AWS](6d7b63d9a6a0c12dc4e2b660946141333c80b3d1bf2ac15c6e79c1dd3c875d50)
-  - [Web](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+ - [Trello]([https://trello.com/b/ecWkLHYo/fiap-23](https://trello.com/invite/b/ecWkLHYo/ATTIbee0852c35d1f3cb1e11e9d64625d6302B905D4E/fiap-23)https://trello.com/invite/b/ecWkLHYo/ATTIbee0852c35d1f3cb1e11e9d64625d6302B905D4E/fiap-23)
+ - [Bucket AWS](WWW.GOOGLE.COM.BR)
+  - [Web](WWW.GOOGLE.COM.BR)
+  - [Pitch](https://www.youtube.com/playlist?list=PLnsC4Y30EcL5txsHHVxkhieF7AqdUW2Qa)
 
