@@ -8,11 +8,11 @@ Simplificar e agilizar todo o processo de contratação e gerenciamento de segur
 
 ## Autores
 
-- RM99768 - Luiza Nunes de Jesus - [@LuizanS](https://github.com/LuizaNs)
-- RM99892 - Livia Freitas Ferreira - [@freitaslivia](https://github.com/freitaslivia)
+- RM 99768 - Luiza Nunes de Jesus - [@LuizanS](https://github.com/LuizaNs)
+- RM 99892 - Livia Freitas Ferreira - [@freitaslivia](https://github.com/freitaslivia)
 - RM551325 - Renato Sanches Russano Romeu - [@RenatoRussano](https://github.com/RenatoRussano)
 - RM552475 - Luiz Felipe Camargo Prendin - [@luizPrendin](https://github.com/luizPrendin)
-- RM99494 - Vinícius de Araújo Camargo - [@vcamargo](https://github.com/vcamargo04)
+- RM 99494 - Vinícius de Araújo Camargo - [@vcamargo](https://github.com/vcamargo04)
 - RM550870 - Gabriel de Andrade Baltazar - [@gbalttazar](https://github.com/gbalttazar)
 
 
