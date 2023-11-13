@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+[![BANNER.png](https://i.postimg.cc/LXPgjYGR/BANNER.png)](https://postimg.cc/ygVNHdVr)
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# Challenge Porto Seguro
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Simplificar e agilizar todo o processo de contratação e gerenciamento de seguros para ciclistas da Porto Seguro. A tecnologia em desenvolvimento de seguros de bicicleta inclui a criação de uma plataforma online, web e mobile, integrada com os sistemas da Porto Seguro, onde os ciclistas podem adquirir seguros com facilidade e a rapidez, além de fornecer funcionalidades adicionais, como o gerenciamento de apólices, acompanhamento de sinistros, avaliação de riscos, financeiro e suporte ao ciclista.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Autores
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- RM99768 - Luiza Nunes de Jesus - [@LuizanS](https://github.com/LuizaNs)
+- RM99892 - Livia Freitas Ferreira - [@freitaslivia](https://github.com/freitaslivia)
+- RM551325 - Renato Sanches Russano Romeu - [@RenatoRussano](https://github.com/RenatoRussano)
+- RM552475 - Luiz Felipe Camargo Prendin - [@luizPrendin](https://github.com/luizPrendin)
+- RM99494 - Vinícius de Araújo Camargo - [@vcamargo](https://github.com/vcamargo04)
+- RM550870 - Gabriel de Andrade Baltazar - [@gbalttazar](https://github.com/gbalttazar)
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## Step By Step
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+• Desenvolver a estrutura capaz de realizar o reconhecimento de imagens.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+• Modelar a estrutura para o reconhecimento de bicicletas.
 
-## Deploy on Vercel
+• Construir a interface do usuário de forma simples e amigável.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+• Executar o processo com o menor número de cliques possível.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Desenvolvimento
+
+A rotina de desenvolvimento de produtos físicos e digitais da Porto Seguro segue um fluxo iterativo e colaborativo, adaptado às necessidades de cada projeto. 
+
+Os processos incluem planejamento, design, desenvolvimento, teste, integração, implementação, monitoramento e feedback. No planejamento, a equipe analisa os requisitos e define escopo, prazos e recursos. O design é baseado nas necessidades do usuário, criando interfaces e definindo a experiência do usuário. O desenvolvimento ocorre em interações curtas, com lançamentos incrementais e testes regulares. 
+
+
+
+## Documentação
+
+[Documentação inicial](https://drive.google.com/file/d/15xOzrc63xAuaRuIlyRjIdJUjVwu87n_h/view?usp=sharing)
+
+• A documentação completa do projeto será entregue no pacote de entregáveis da disciplina de software design & total experience.
+
+
+## Links
+
+ - [Repositório Github](https://github.com/freitaslivia/challenge4)
+ - [Trello](https://trello.com/b/ecWkLHYo/fiap-23)
+ - [Bucket AWS](6d7b63d9a6a0c12dc4e2b660946141333c80b3d1bf2ac15c6e79c1dd3c875d50)
+  - [Web](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+
