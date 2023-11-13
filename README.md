@@ -45,7 +45,7 @@ Os processos incluem planejamento, design, desenvolvimento, teste, integração,
 ## Links
 
  - [Repositório Github](https://github.com/freitaslivia/challenge4)
- - [Trello]([https://trello.com/b/ecWkLHYo/fiap-23](https://trello.com/invite/b/ecWkLHYo/ATTIbee0852c35d1f3cb1e11e9d64625d6302B905D4E/fiap-23)https://trello.com/invite/b/ecWkLHYo/ATTIbee0852c35d1f3cb1e11e9d64625d6302B905D4E/fiap-23)
+ - [Trello](https://trello.com/invite/b/ecWkLHYo/ATTIbee0852c35d1f3cb1e11e9d64625d6302B905D4E/fiap-23)
  - [Bucket AWS](WWW.GOOGLE.COM.BR)
   - [Web](WWW.GOOGLE.COM.BR)
   - [Pitch](https://www.youtube.com/playlist?list=PLnsC4Y30EcL5txsHHVxkhieF7AqdUW2Qa)
