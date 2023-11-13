@@ -2,30 +2,66 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import styles from '../../styles/Login.module.css';
-
 import CustomButton from '../../components/CustomButton/Button';
 
-const Login = () => {
-  const [inspectionCode, setInspectionCode] = useState('');
-  const [password, setPassword] = useState('');
+const FormCadastrar = () => {
+  const [novo, setNovo] = useState({
+    nome: '',
+    email: '',
+    cpf: ''
+  });
 
-  const handleInspectionCodeChange = (event) => {
-    setInspectionCode(event.target.value);
+  const [erro, setErro] = useState('');
+  const router = require('next/router');  
+
+  const handleChange = (e) => {
+    setNovo({ ...novo, [e.target.name]: e.target.value });
   };
 
-  const handlePasswordChange = (event) => {
-    setPassword(event.target.value);
+  const validarFormulario = () => {
+    if (!novo.nome || !novo.email || !novo.cpf) {
+      setErro('Por favor, preencha todos os campos.');
+      return false;
+    }
+
+    const cpfRegex = /^\d{3}\.\d{3}\.\d{3}-\d{2}$/;
+    if (!cpfRegex.test(novo.cpf)) {
+      setErro('Formato de CPF inválido. Use o formato 111.111.111-11.');
+      return false;
+    }
+
+    return true;
   };
 
-  const handleLogin = async (event) => {
-    event.preventDefault();
+  const handleSubmit = async (e) => {
+    e.preventDefault();
 
-   
-    const loginSuccessful = true;
+    
+    if (!validarFormulario()) {
+      return;
+    }
 
-    if (loginSuccessful) {
+    try {
+      const response = await fetch('http://localhost:8080/clientes', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Access-Control-Allow-Origin': '*'
+        },
+        body: JSON.stringify(novo)
+      });
+
+      if (response.ok) {
+        console.log('Cadastro realizado com sucesso');
       
-      window.location.href = '/vistoriaStep1';
+        router.push('/vistoriaStep1');
+      } else {
+        console.error('Erro ao cadastrar. Status:', response.status);
+        
+      }
+    } catch (error) {
+      console.error('Erro ao enviar a solicitação:', error);
+     
     }
   };
 
@@ -35,41 +71,51 @@ const Login = () => {
 
   return (
     <section className={styles.loginSection}>
-      <form className={styles.loginBox}>
-        <h1>Iniciar vistoria</h1>
+      <form className={styles.loginBox} onSubmit={handleSubmit} method="POST">
+        <h1>Cadastrar</h1>
+
+        {erro && <p style={{ color: 'red' }}>{erro}</p>}
 
         <div className={styles.inputField}>
-          <label htmlFor="codigoVistoria">Código de Vistoria:</label>
+          <label htmlFor="nome">Nome:</label>
           <input
             type="text"
-            id="codigoVistoria"
-            name="codigoVistoria"
-            value={inspectionCode}
-            placeholder='Digite o código de vistoria'
-            onChange={handleInspectionCodeChange}
+            id="Idnome"
+            name="nome"
+            value={novo.nome}
+            placeholder="Digite o seu nome"
+            onChange={handleChange}
           />
         </div>
         <div className={styles.inputField}>
-          <label htmlFor="senha">Senha:</label>
+          <label htmlFor="email">Email:</label>
           <input
-            type="password"
-            id="senha"
-            name="senha"
-            placeholder='Digite sua senha'
-            value={password}
-            onChange={handlePasswordChange}
+            type="email"
+            id="idEmail"
+            name="email"
+            placeholder="Digite seu email"
+            value={novo.email}
+            onChange={handleChange}
           />
         </div>
 
-        <Link href="/vistoriaStep1">
-          <CustomButton onClick={handleLogin}>
-            Entrar
-          </CustomButton>
-        </Link>
+        <div className={styles.inputField}>
+          <label htmlFor="cpf">CPF:</label>
+          <input
+            type="text"
+            id="idCpf"
+            name="cpf"
+            placeholder="Digite seu CPF(111.111.111-11)"
+            value={novo.cpf}
+            onChange={handleChange}
+          />
+        </div>
+
+        <CustomButton type="submit">Cadastrar</CustomButton>
       </form>
       <div className={styles.loginBackground} style={backgroundImageStyle} />
     </section>
   );
 };
 
-export default Login;
+export default FormCadastrar;
