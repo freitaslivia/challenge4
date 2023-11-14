@@ -8,7 +8,7 @@
     align-items: center;
     gap: 16px;
     background: rgba(32, 173, 252, 0.2);
-    height: 85vh;
+    height: 100vh;
     max-height: 900px;
   }
   
@@ -16,7 +16,7 @@
     padding: 13px 34px 13px 34px;
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 26px;
     align-items: center;
     width: 100%;
   }
@@ -49,7 +49,7 @@
   .inputField {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 5px;
     
   }
   
