@@ -76,7 +76,7 @@ const FormBike = () => {
             />
           </div>
 
-          <div className={headerSectionStyles.inputField}>
+          <div className={styles.inputField}>
             <label htmlFor="modelo">Modelo:</label>
             <input
               type="text"
@@ -88,7 +88,7 @@ const FormBike = () => {
             />
           </div>
 
-          <div className={headerSectionStyles.inputField}>
+          <div className={styles.inputField}>
             <label htmlFor="marca">Marca:</label>
             <input
               type="text"
@@ -100,7 +100,7 @@ const FormBike = () => {
             />
           </div>
 
-          <div className={headerSectionStyles.inputField}>
+          <div className={styles.inputField}>
             <label htmlFor="valor">Valor:</label>
             <input
               type="text"
