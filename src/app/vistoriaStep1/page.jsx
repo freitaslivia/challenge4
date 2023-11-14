@@ -1,4 +1,5 @@
 "use client";
+import Link from 'next/link';
 import React, { useState } from 'react';
 import CustomButton from '@/components/CustomButton/Button';
 import headerSectionStyles from '../../styles/HeaderSectionStyle.module.css';
@@ -111,9 +112,11 @@ const FormBike = () => {
             />
           </div>
 
-          <CustomButton type="submit">
-            Enviar
-          </CustomButton>
+        <Link href="/vistoriaStep2">
+        <CustomButton type="submit">
+          Entrar
+        </CustomButton>
+        </Link>
         </form>
         <div />
       </section>
