@@ -28,4 +28,53 @@ const VistoriaStep3 = () => {
   );
 };
 
+
+<section className={styles.loginSection}>
+<form className={styles.loginBox} onSubmit={handleSubmit} method="POST">
+  <h1>Cadastrar</h1>
+
+  {erro && <p style={{ color: 'red' }}>{erro}</p>}
+
+  <div className={styles.inputField}>
+    <label htmlFor="nome">Nome:</label>
+    <input
+      type="text"
+      id="Idnome"
+      name="nome"
+      value={novo.nome}
+      placeholder="Digite o seu nome"
+      onChange={handleChange}
+    />
+  </div>
+  <div className={styles.inputField}>
+    <label htmlFor="email">Email:</label>
+    <input
+      type="email"
+      id="idEmail"
+      name="email"
+      placeholder="Digite seu email"
+      value={novo.email}
+      onChange={handleChange}
+    />
+  </div>
+
+  <div className={styles.inputField}>
+    <label htmlFor="cpf">CPF:</label>
+    <input
+      type="text"
+      id="idCpf"
+      name="cpf"
+      placeholder="Digite seu CPF(111.111.111-11)"
+      value={novo.cpf}
+      onChange={handleChange}
+    />
+  </div>
+
+  <CustomButton type="submit">Cadastrar</CustomButton>
+</form>
+<div className={styles.loginBackground} style={backgroundImageStyle} />
+</section>
+);
+
+
 export default VistoriaStep3;
