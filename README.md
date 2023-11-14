@@ -29,7 +29,7 @@ Simplificar e agilizar todo o processo de contratação e gerenciamento de segur
 
 ## Desenvolvimento
 
-A rotina de desenvolvimento de produtos físicos e digitais da Porto Seguro segue um fluxo iterativo e colaborativo, adaptado às necessidades de cada projeto. 
+A rotina de desenvolvimento de produtos físicos e digitais da Porto Seguro segue um fluxo interativo e colaborativo, adaptado às necessidades de cada projeto. 
 
 Os processos incluem planejamento, design, desenvolvimento, teste, integração, implementação, monitoramento e feedback. No planejamento, a equipe analisa os requisitos e define escopo, prazos e recursos. O design é baseado nas necessidades do usuário, criando interfaces e definindo a experiência do usuário. O desenvolvimento ocorre em interações curtas, com lançamentos incrementais e testes regulares. 
 
@@ -39,7 +39,7 @@ Os processos incluem planejamento, design, desenvolvimento, teste, integração,
 
 [Documentação inicial](https://drive.google.com/file/d/15xOzrc63xAuaRuIlyRjIdJUjVwu87n_h/view?usp=sharing)
 
-• A documentação completa do projeto será entregue no pacote de entregáveis da disciplina de software design & total experience.
+• A documentação completa do projeto será entregue no pacote de entregas da disciplina de software design & total experience.
 
 
 ## Links
