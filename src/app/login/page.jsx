@@ -111,7 +111,11 @@ const FormCadastrar = () => {
           />
         </div>
 
-        <CustomButton type="submit">Cadastrar</CustomButton>
+        <Link href="/vistoriaStep1">
+        <CustomButton type="submit">
+          Cadastrar
+        </CustomButton>
+        </Link>
       </form>
       <div className={styles.loginBackground} style={backgroundImageStyle} />
     </section>
